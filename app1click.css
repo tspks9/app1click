@@ -1,3 +1,5 @@
+
+
 <b:template-skin>
 body#layout div.section {background-color:transparent;border:0;font-family:sans-serif;margin:0;overflow:visible;padding:0;position:relative}
 body#layout body#layout ul,#layout ul,body#layout div.section h4,#layout div.section h4 {display:none;}
@@ -31,7 +33,7 @@ body#layout #adpost3:before {content: &quot;Homepage only ad slot (300x250 px )&
 #recent1, #recent2 { width: 100%; }
 #recent1 ul, #recent2 ul {margin-top:5px;padding:0}
 #recent1 .label_title, #recent2 .label_title { margin-left: 15px; margin: 0 auto; font-size: 13px; font-weight:bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-#recent1 .recent-box, #recent2 .recent-box {font-family:Open Sans; width:23%; height:208px; display: inline-block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;margin-bottom:5px;padding: 10px;text-align:center;margin:5px 10px 5px 0px;}
+#recent1 .recent-box, #recent2 .recent-box {font-family:Open Sans; width:23%; height:200px; display: inline-block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;margin-bottom:5px;padding: 7px 7px 5px;text-align:center;margin:5px 10px 5px 0px;}
 #recent1 .recent-box .imageContainer, #recent2 .recent-box .imageContainer { width:100%; float: none; height:auto; margin-bottom: 8px;overflow: hidden; }
 #recent1 .recent-box .imageContainer, #recent2 .recent-box .imageContainer { margin-left: 0; }
 .imageContainer {float: none;width:115px;height:115px;margin-bottom: 5px;transition: 0.9s; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s;}
@@ -59,6 +61,7 @@ ul.recent_posts_with_thumbs li p {margin: 0.3em 0; font-size: 11px;color: #7b899
 .post-ad {background:#fff;border: 1px solid; border-color: #e5e6e9 #dfe0e4 #d0d1d5;text-align: center; padding: 10px; margin: 10px; margin-left:0px;margin-right:0}
 .post-ad2 {background:#fff;border: 1px solid; border-color: #e5e6e9 #dfe0e4 #d0d1d5;text-align: center; padding: 10px; margin: 10px 10px 10px 0px;width:45.5%;float:left}
 .post-ad3 {background:#fff;border: 1px solid; border-color: #e5e6e9 #dfe0e4 #d0d1d5;text-align: center; padding: 10px; margin: 10px 0px 10px 0px;width:45.4%;float:right;}
+
 /* Responsive Mega Menu by GlobalAPK */
 .fixed-header32{ position:fixed; background-color:#fff; width:100%; height:75px; border-bottom:1px solid #d9d8d8; top:0; z-index:1000; }
 .LogoBuner{max-width:300px;margin:0 auto;font-weight: bold;letter-spacing: 1px;float:left;}
@@ -197,9 +200,12 @@ background:none;outline:none;}
 .post-ad2, .post-ad3 {width:100%}
 .post-ad2 {margin-bottom:5px;}
 }
+</style>
+
+<!-- xuan -->
 <style type='text/css'>
 .date-posts {width: 730px;}
-.post-outer {width: 730px;}
+.post-outer {width: 720px;}
 abbr.published.updated {text-decoration: none;}
 h2.post-title.entry-title {
     white-space: pre-wrap;
@@ -223,6 +229,7 @@ h2.post-title.entry-title {
 .jump-link {display: none;}
 </style>
 <!-- hết xuan -->
+
 <!-- tìm -->
 <style type='text/css'>
     #hbz-searchbox {
@@ -291,10 +298,12 @@ h2.post-title.entry-title {
         border-color: transparent #E54040;
 }
 </style>
+
 <!-- hết tìm -->
-<!-- đếm --> 
+
+<!-- đếm -->
 <style type='text/css'>
-/* Blogger Custom Stats widget by msdesignbd.com */
+/* Blogger Custom Stats widget */
 .Stats img {display:none!important;background-image:none;}
 .Stats .counter-wrapper {width:92%;text-align:right;margin:10px;line-height:35px;color:#333;font-weight:700;font-size:16px;margin-left: 0;}
 .Stats .counter-wrapper:after {content:&quot;Page Views&quot;;float:left;text-align:left;font-size:13px;font-weight:700;color:#333;}
@@ -311,6 +320,7 @@ display:block;background-color:#fff;color:#333;width:35px;height:35px;font-size:
 #Stats1_content {width:auto;height:auto;background-color:#fff;}
 </style>  
 <!-- hết đếm -->
+
 <!-- đăng ký mail -->
 <style type='text/css'>
 #subscribe-box {background-color:#0CC388;font-family: &#39;PT Sans&#39;, sans-serif;margin-bottom: 8px;}
@@ -324,4 +334,3 @@ display:block;background-color:#fff;color:#333;width:35px;height:35px;font-size:
 .creadit a{color: #A7A6A6; float: right; font-size: 8px 
 </style>  
 <!-- hết đăng ký mail -->
-</style>
