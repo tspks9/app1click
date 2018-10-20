@@ -1,66 +1,13 @@
-#hbz-searchbox {
-        min-width: 250px;
-        margin: 10px auto;
-        border-radius: 3px;
-        overflow: hidden;
-        max-width: 300px;
-    }
-   
-    #hbz-input {
-        width: 59.2%;
-        padding: 10.5px 4%;
-        font: bold 15px &quot;lucida sans&quot;, &quot;trebuchet MS&quot;, &quot;Tahoma&quot;;
-        border: none;
-        background-color: #EEE;
-    }
-   
-    #hbz-input:focus {
-        outline: none;
-        background-color: #FFF;
-        box-shadow: 0 0 2px #333333 inset;
-    }
-   
-    #hbz-submit {
-        overflow: visible;
-        position: relative;
-        float: right;
-        border: none;
-        padding: 0;
-        cursor: pointer;
-        height: 39px;
-        width: 32.8%;
-        font: bold 15px/40px &quot;lucida sans&quot;, &quot;trebuchet MS&quot;, &quot;Tahoma&quot;;
-        color: #FFF;
-        text-transform: uppercase;
-        background-color: #D83C3C;
-    }
-   
-    #hbz-submit::before {
-        content: &quot;&quot;;
-        position: absolute;
-        border-width: 8px;
-        border-style: solid solid solid none;
-        border-color: transparent #D83C3C;
-        top: 12px;
-        left: -6px;
-    }
-   
-    #hbz-submit:focus,
-    #hbz-submit:active {
-        background-color: #C42F2F;
-        outline: none;
-    }
-
-    #hbz-submit:focus::before,
-    #hbz-submit:active::before {
-        border-color: transparent #C42F2F;
-    }
-
-    #hbz-submit:hover {
-        background-color: #E54040;
-    }
-
-    #hbz-submit:hover::before {
-        border-color: transparent #E54040;
+body {
+    background-color: lightblue;
 }
 
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
