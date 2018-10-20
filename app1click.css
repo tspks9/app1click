@@ -1,5 +1,5 @@
 
-<style type='text/css'>
+
     #hbz-searchbox {
         min-width: 250px;
         margin: 10px auto;
@@ -65,4 +65,4 @@
     #hbz-submit:hover::before {
         border-color: transparent #E54040;
 }
-</style>
+
